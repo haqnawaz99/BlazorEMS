@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "angXZhsoOMA4twUHP8iLl6VG22sifFaV4n2ivoIOleqDWZ/7Am1bKbufnivk/uN8+otU1pVGNwn0GxwAKxwHWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Musa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Musa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
