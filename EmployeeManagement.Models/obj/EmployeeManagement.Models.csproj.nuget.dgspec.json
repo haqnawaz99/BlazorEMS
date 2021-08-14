@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {}
+    "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {}
   },
   "projects": {
-    "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+    "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "projectUniqueName": "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
         "projectName": "EmployeeManagement.Models",
-        "projectPath": "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "projectPath": "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
         "packagesPath": "C:\\Users\\Musa\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\VS\\Blazor\\EmployeeManagement.Models\\obj\\",
+        "outputPath": "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagement.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

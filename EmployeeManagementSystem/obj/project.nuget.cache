@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K+l0YHjVFwstrlrNnivms0JsJaPOV8rVP/Bny20dHJAbbVb0/Cd6JzSVsMk8ot3Bi2zIs2FQNLHICryofFJ8CQ==",
+  "dgSpecHash": "LEGYZvUueJM0gor98AQ27byggI/sCUEgBi3BaUyqTpziOzG+oDS3KGCS/2h1EG2qwyVnndnaUPlk7HopqQ1Y0A==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\VS\\Blazor\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+  "projectFilePath": "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
