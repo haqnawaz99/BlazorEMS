@@ -113,3 +113,4 @@ C:\Programming\VS\Blazor\EMS\EmployeeManagementSystem\bin\x64\Debug\net5.0\Micro
 C:\Programming\VS\Blazor\EMS\EmployeeManagementSystem\bin\x64\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Programming\VS\Blazor\EMS\EmployeeManagementSystem\bin\x64\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Programming\VS\Blazor\EMS\EmployeeManagementSystem\bin\x64\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Programming\VS\Blazor\EMS\EmployeeManagementSystem\bin\x64\Debug\net5.0\Microsoft.AspNetCore.Blazor.HttpClient.dll

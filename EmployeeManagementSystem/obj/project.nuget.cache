@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xAOY+Wp6XSe/jD6Vrf4tQn5jyJqNlRGZWInAwHky4MI868x6OFrNBhwSbHzUEpdY9U/v2RsuGGHtAsrINSqkCw==",
+  "dgSpecHash": "NshNIVFEmQghxO8/Q9Z5vjtvEvFWmyZlCp6PCSGOnzSxuFGObyQL4POCRdcuD/o2oM0l3MGGE3q2UrByZugl0g==",
   "success": true,
   "projectFilePath": "C:\\Programming\\VS\\Blazor\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Musa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Musa\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
     "C:\\Users\\Musa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Musa\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Musa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
@@ -23,7 +24,9 @@
     "C:\\Users\\Musa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Musa\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Musa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Musa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\Musa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Musa\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Musa\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

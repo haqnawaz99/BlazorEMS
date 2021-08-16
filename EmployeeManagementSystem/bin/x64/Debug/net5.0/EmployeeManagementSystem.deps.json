@@ -223,7 +223,7 @@
           "System.Memory": "5.0.0.0",
           "System.Net": "4.0.0.0",
           "System.Net.Http": "5.0.0.0",
-          "System.Net.Http.Json": "5.0.0.0",
+          "System.Net.Http.Json.Reference": "5.0.0.0",
           "System.Net.HttpListener": "5.0.0.0",
           "System.Net.Mail": "5.0.0.0",
           "System.Net.NameResolution": "5.0.0.0",
@@ -289,7 +289,7 @@
           "System.Text.Encoding": "5.0.0.0",
           "System.Text.Encoding.Extensions": "5.0.0.0",
           "System.Text.Encodings.Web": "5.0.0.0",
-          "System.Text.Json": "5.0.0.0",
+          "System.Text.Json.Reference": "5.0.0.0",
           "System.Text.RegularExpressions": "5.0.0.0",
           "System.Threading.Channels": "5.0.0.0",
           "System.Threading": "5.0.0.0",
@@ -332,6 +332,20 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Blazor.HttpClient/3.2.0-preview3.20168.3": {
+        "dependencies": {
+          "System.Text.Json": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.HttpClient.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.200.20.16803"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.HttpClient.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -449,9 +463,13 @@
           }
         }
       },
+      "System.Net.Http.Json/5.0.0": {},
+      "System.Text.Json/4.7.1": {},
       "EmployeeManagement.Models/1.0.0": {
         "dependencies": {
-          "System.ComponentModel.Annotations": "5.0.0"
+          "Microsoft.AspNetCore.Blazor.HttpClient": "3.2.0-preview3.20168.3",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Net.Http.Json": "5.0.0"
         },
         "runtime": {
           "EmployeeManagement.Models.dll": {}
@@ -1588,7 +1606,7 @@
         },
         "compileOnly": true
       },
-      "System.Net.Http.Json/5.0.0.0": {
+      "System.Net.Http.Json.Reference/5.0.0.0": {
         "compile": {
           "System.Net.Http.Json.dll": {}
         },
@@ -1984,7 +2002,7 @@
         },
         "compileOnly": true
       },
-      "System.Text.Json/5.0.0.0": {
+      "System.Text.Json.Reference/5.0.0.0": {
         "compile": {
           "System.Text.Json.dll": {}
         },
@@ -2173,6 +2191,13 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Blazor.HttpClient/3.2.0-preview3.20168.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6J1vBdhSnGW53BQsKeIjI8algTQdW8+Dnx/R9eZ/ldhtY8mx2KXOSkEVr7Tb0xwg5OM5+rHZS+PuzIv1nuvDCg==",
+      "path": "microsoft.aspnetcore.blazor.httpclient/3.2.0-preview3.20168.3",
+      "hashPath": "microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -2305,6 +2330,20 @@
       "sha512": "sha512-uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    },
+    "System.Net.Http.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3CPSQpCzEmI9o+1G79TnPCjF40omCdnoXj2Rg76BDwGj5+LZnFPjV+t35eedlvl+uthmholk/XXxXTYgJWSexw==",
+      "path": "system.net.http.json/5.0.0",
+      "hashPath": "system.net.http.json.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
+      "path": "system.text.json/4.7.1",
+      "hashPath": "system.text.json.4.7.1.nupkg.sha512"
     },
     "EmployeeManagement.Models/1.0.0": {
       "type": "project",
@@ -3251,7 +3290,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Net.Http.Json/5.0.0.0": {
+    "System.Net.Http.Json.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3581,7 +3620,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Text.Json/5.0.0.0": {
+    "System.Text.Json.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
